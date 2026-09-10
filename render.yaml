@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: hyakkiyako-signal
+    env: node
+    plan: free
+    buildCommand: ""
+    startCommand: npm start
